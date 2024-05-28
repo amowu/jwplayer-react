@@ -98,7 +98,7 @@ declare module '@jwplayer/jwplayer-react' {
         config?: JWPlayerConfig;
     }
 
-    const JWPlayerComponent: ComponentType<JWPlayerProps & HTMLProps<'video'>>;
+    const JWPlayerComponent: ComponentType<JWPlayerProps & HTMLProps<HTMLVideoElement>>;
 
     export default JWPlayerComponent;
 }
